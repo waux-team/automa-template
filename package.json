@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "automa-install": "git clone git@github.com:waux-team/automa.git ./packages",
+    "automa-install": "git clone git@github.com:waux-team/automa.git ./packages/automa",
     "bundle": "npx webpack --config ./webpack.config.js --config-name bundle",
     "build": "npx webpack --config ./webpack.config.js --config-name build"
   },
